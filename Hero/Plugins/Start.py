@@ -155,7 +155,7 @@ async def useradd(_, message: Message):
             [
                 [
                     InlineKeyboardButton(
-                        "💥 𝘾𝙊𝙉𝙏𝘼𝘾𝙏 𝙊𝙒𝙉𝙀𝙍 💞", url=f"https://github.com/CandyMusic/Hero")
+                        "💥 𝘾𝙊𝙉𝙏𝘼𝘾𝙏 𝙊𝙒𝙉𝙀𝙍 💞", url=f"https://t.me/iam_your_heart4")
                 ]
             ]
         ),

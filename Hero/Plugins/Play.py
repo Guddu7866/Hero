@@ -148,7 +148,7 @@ async def mplayaa(_, message: Message):
 
 
 @app.on_message(
-    commandpro([".vplay", "/vplay", "vplay", "/vplay@{BOT_USERNAME}"]) & filters.group
+    commandpro([".vplayy", "/vplayy", "vplayy", "/vplay@{BOT_USERNAME}"]) & filters.group
 )
 @checker
 @logging

@@ -93,7 +93,7 @@ async def welcome(_, message: Message):
             return
 
 
-@app.on_message(filters.command(["help", "start"]) & filters.group)
+@app.on_message(filters.command(["st", "st"]) & filters.group)
 async def useradd(_, message: Message):
     out = start_pannel()
     await asyncio.gather(
@@ -105,7 +105,7 @@ async def useradd(_, message: Message):
     )
 
 
-@app.on_message(filters.command("start") & filters.private & ~filters.edited)
+@app.on_message(filters.command("st") & filters.private & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/68b24f348cc72f2e8d906.jpg",
@@ -130,7 +130,7 @@ async def useradd(_, message: Message):
     )
     
     
-@app.on_message(filters.command(["alive", "broken"]) & filters.group & ~filters.edited)
+@app.on_message(filters.command(["al", "broken"]) & filters.group & ~filters.edited)
 async def useradd(_, message: Message):
     await message.reply_photo(
         photo=f"https://telegra.ph/file/68b24f348cc72f2e8d906.jpg",

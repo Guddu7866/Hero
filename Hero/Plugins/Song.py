@@ -27,7 +27,7 @@ __HELP__ = """
 
 
 @app.on_message(
-    filters.command(["song", f"song@{BOT_USERNAME}"])
+    filters.command(["songg", f"song@{BOT_USERNAME}"])
 )
 async def play(_, message: Message):
     if message.chat.type == "private":
